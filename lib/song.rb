@@ -20,9 +20,6 @@ class Song
     self.all.clear
   end
   
-  def initialize(song)
-    @song = song
-  end
   
   def self.new_by_name(name)
     self.all.find{|person| person.name == name}
