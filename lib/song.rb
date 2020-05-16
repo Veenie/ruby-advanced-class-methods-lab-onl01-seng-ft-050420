@@ -6,6 +6,12 @@ class Song
     @@all
   end
   
+  def self.create
+    song = self.new
+    self.all << song
+    song
+  end
+  
   def save
     self.class.all << self
   end
@@ -14,13 +20,7 @@ class Song
     self.all.clear
   end
   
-  def self.create
-    song = self.new
-    self.all << song
-    song
-  end
   
-  self.new_by_name
-    @@all.find{|song| song.name == name}
-  end
+  
+  
 end
