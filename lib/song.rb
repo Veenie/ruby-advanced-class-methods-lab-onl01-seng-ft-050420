@@ -20,7 +20,7 @@ class Song
     self.all.clear
   end
   
-  def initialize
+  def initialize(name)
     
   
   def self.new_by_name(name)
