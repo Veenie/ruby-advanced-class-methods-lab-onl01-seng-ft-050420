@@ -20,7 +20,8 @@ class Song
     song
   end
   
-  
+  self.new_by_nme
+    
   
   
 end
