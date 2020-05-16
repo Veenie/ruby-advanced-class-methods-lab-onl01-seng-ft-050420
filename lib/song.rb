@@ -20,7 +20,7 @@ class Song
     song
   end
   
-  self.new_by_nme
+  self.new_by_name
     
   
   
