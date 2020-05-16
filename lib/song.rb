@@ -20,6 +20,9 @@ class Song
     self.all.clear
   end
   
+  def initialize
+    
+  
   def self.new_by_name(name)
     @@all.find{|person| person.name == name}
   end
