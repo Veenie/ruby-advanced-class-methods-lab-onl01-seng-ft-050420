@@ -24,7 +24,7 @@ class Song
     @name = name
   
   def self.new_by_name(name)
-    @@all.find{|person| person.name == name}
+    self.all.find{|person| person.name == name}
   end
   
   
