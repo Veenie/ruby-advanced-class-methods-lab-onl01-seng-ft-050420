@@ -6,12 +6,6 @@ class Song
     @@all
   end
   
-  def self.create
-    song = self.new
-    self.all << song
-    song
-  end
-  
   def save
     self.class.all << self
   end
@@ -19,6 +13,7 @@ class Song
   def self.destroy_all
     self.all.clear
   end
+  
   
   
   def self.new_by_name(title)
