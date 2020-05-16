@@ -20,8 +20,8 @@ class Song
     self.all.clear
   end
   
-  def initialize(name)
-    @name = name
+  def initialize(song)
+    @song = song
   end
   
   def self.new_by_name(name)
