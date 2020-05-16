@@ -23,5 +23,4 @@ class Song
   self.new_by_name
     @@all.find{|song| song.name == name}
   end
-  
 end
