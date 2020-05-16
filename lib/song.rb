@@ -27,7 +27,11 @@ class Song
     song
   end
   
-  
+  def self.create_by_name(title) #class constructor
+    song = self.create
+    song.name = title
+    song
+  end
   
   
 end
